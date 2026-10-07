@@ -127,9 +127,11 @@ but is made into a widget via adding it to widgets.xml
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
 
-**View progress updates, screenshots, and videos here**
-t.me/xcalibredeskenv
+**Join me on Telegram, details below**
 
-**Hang out with the developer and/or request features here**
+**View progress updates, screenshots, and videos here**  
+t.me/xcalibredeskenv 
+
+**Hang out with the developer and/or request features here**  
 t.me/c/4473235011/1
 

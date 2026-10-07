@@ -2,7 +2,7 @@
 
 The goal of Xcalibre is to be the world's greatest desktop environment, entirely customizeable and innovative, with features not found anywhere else.
 This project is still in early development but it is somewhere close to half-way finished, it is not a fork of some other desktop environment, I am
-one single developer building this from bare scratch in C++ for Xorg or hopefully also any other X-based server e.g (XLibre/XF86-based servers).
+one single developer building this from bare scratch in C++ for Xorg and hopefully also any other X-based server (XLibre/XF86-based graphics servers).
 I've been working on this now for around 6 months and I'm somewhere around half-way finished with it.
 I intend for this to be a highly capable programmer-friendly desktop for power users.
 

@@ -10,6 +10,11 @@ Below are a list of features.
 - [x] represents features already present
 - [ ] represents features to come
 
+---------------------------------------------------------------------------------------------------------------------------
+
+**Multiple desktops functionality**
+- [x] Keybindable by calling xcalibre -desktop n, where n represents the number of screen sizes to automatically position the desktop
+
 **Rendering is done on the GPU with OpenGL**
 - [x] FPS control via general.xml
 - [x] VSync control via general.xml
@@ -96,14 +101,15 @@ but is made into a widget via adding it to widgets.xml
 **Xcalitask**
 - [x] A taskbar widget allowing the user to view, raise, and minimize open programs
 - [x] Double-click to teleport the mouse cursor to the middle of the window corresponding to the associated taskbar button
-- [ ] Hold the right mouse button down on the task manager widget and move left or right to scroll the desktop
+- [x] Hold the right mouse button down on the task manager widget and move left or right to scroll the desktop
+- [x] Beautiful decoratable desktop mini-map appears while scrolling so you never get lost
 - [ ] Middle click or roll the mouse wheel downward to minimize all windows
 - [ ] roll the mouse wheel upward to restore the previously minimized windows
 - [x] Editable color-scheme via command line arguments
 
 **Xcalifile**
-- [ ] Xcalibre's task manager
-- [ ] Entirely customizeable scriptable right-click context menu like with the desktop, editable via general.xml
+- [ ] Xcalibre's file manager
+- [ ] Entirely customizeable scriptable right-click context menu like with the desktop, editable via its own xml file and script directory (soon to come)
 
 **Xcalibre will come with its own C++ GUI toolkit called X++**
 - [x] There are already a ton of libraries added to this, pragmatic libraries, I could go on for probably an hour about this so far.

@@ -11,7 +11,6 @@ Below are a list of features.
 - [ ] represents features to come
 
 ---------------------------------------------------------------------------------------------------------------------------
-
 **Multiple desktops functionality**
 - [x] Keybindable by calling xcalibre -desktop n, where n represents the number of screen sizes to automatically position the desktop
 
@@ -32,13 +31,17 @@ keybinds to be multi-part, persisting until a keybind is detected where it is to
 **Xdialibre, Xcalibind's dialog program**
 - [x] Fully integratable into your scripts and programs
 - [x] Message box dialog
-- [x] User input dialog 
+- [x] User input dialog
+- [ ] Font selection dialog
 - [ ] Color selection dialog
    - [ ] Will display colors as HTML, Hex, unsigned 32-bit integers, and unsigned bytes
    - [ ] Will contain an eyedropper tool that can be used across the screen
 - [ ] Open folder dialog
 - [ ] Open file dialog
 - [ ] Save file dialog
+- [ ] File Properties dialog
+- [ ] Simple popup context menu
+
 
 **Xcalidoc, Xcalibre's user manual program**
 - [ ] Will open .xcalidoc files and possibly also .man files as well
@@ -108,12 +111,21 @@ but is made into a widget via adding it to widgets.xml
 - [x] Editable color-scheme via command line arguments
 
 **Xcalifile**
-- [ ] Xcalibre's file manager
-- [ ] Entirely customizeable scriptable right-click context menu like with the desktop, editable via its own xml file and script directory (soon to come)
+- [x] Xcalibre's file manager
+- [x] Entirely customizeable scriptable right-click context menu like with the desktop, editable via its own xml file and script directory
+- [x] Scriptable drag/drop events
+- [x] Wildcard filter searching
+- [x] Address buttons can optionally be right-clicked to display a text field in their place
+- [x] XPPFileManager control for X++ allows you to place one in an application either as a child window or with redirected graphics and input for full control over the background
+
 
 **Xcalibre will come with its own C++ GUI toolkit called X++**
 - [x] There are already a ton of libraries added to this, pragmatic libraries, I could go on for probably an hour about this so far.
 - [x] Xcalibre is built with this library, and it continues to grow with development, I develop both projects at the same time.
+- [x] Single-header files for easy inclusion in your C++ projects (Currently converting every library to this)
+- [x] Pragmatically created so that one define (XPPIMPLEMENT_ALL) will implement all included libraries beneath it 
+- [x] Optionally implement individual headers if needed using the name specified within the header file "#if defined(...)" section right before the implementation code
+- [x] It is currently growing, but already fairly extensive and yet light-weight
 - [x] Pragmatically written for ease of use and power
 - [ ] xppmake will generate your makefiles automatically based on the headers you add to your source code
 

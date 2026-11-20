@@ -69,6 +69,7 @@ but is made into a widget via adding it to widgets.xml
 - [x] Titlebar buttons
 - [x] Desktop background image
 - [ ] Optional desktop background executable so you can dynamically generate animations in code
+- [x] Taskbar frames
 
 **Entirely scriptable desktop context menu, literally every part of it**
 - [x] Custom menu items can execute Squirrel or Lua scripts.

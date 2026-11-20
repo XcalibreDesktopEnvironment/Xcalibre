@@ -66,6 +66,7 @@ but is made into a widget via adding it to widgets.xml
 - [x] Taskbar decorations
 - [ ] Popup menu decorations
 - [ ] Hint window decorations
+- [x] Titlebar buttons
 - [x] Desktop background image
 - [ ] Optional desktop background executable so you can dynamically generate animations in code
 
@@ -84,7 +85,7 @@ but is made into a widget via adding it to widgets.xml
 - [x] Interprets both Lua and Squirrel scripts
 
 **Customizeable window titlebar buttons**
-- [ ] Custom button images
+- [x] Custom button images
 - [ ] Custom buttons can execute a script based on left and/or right mouse button clicks
 - [x] Default buttons for Opacity, Maximize, Minimize, and Close
 - [x] Left clicking the Opacity button reduces opacity by 15% initially then 25% until 0%

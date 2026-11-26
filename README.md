@@ -63,6 +63,7 @@ but is made into a widget via adding it to widgets.xml
 
 **Fully designable via 32-bit bitmap files**
 - [x] Window decorations
+- [ ] Active window decorations
 - [x] Taskbar decorations
 - [ ] Popup menu decorations
 - [ ] Hint window decorations
@@ -70,6 +71,15 @@ but is made into a widget via adding it to widgets.xml
 - [x] Desktop background image
 - [ ] Optional desktop background executable so you can dynamically generate animations in code
 - [x] Taskbar frames
+
+**Taskbars**
+- [x] Positionable
+- [x] Sizeable
+- [x] Designable
+- [x] Can float
+- [x] Auto-hidable 
+- [ ] Optionally individual taskbars can have their own decorations
+- [x] Any GUI or TUI application can be a taskbar widget 
 
 **Entirely scriptable desktop context menu, literally every part of it**
 - [x] Custom menu items can execute Squirrel or Lua scripts.
@@ -80,14 +90,15 @@ but is made into a widget via adding it to widgets.xml
 - [x] Entirely scriptable tiling window management
 
 **Themes**
-- [ ] Themability is almost currently entirely possible but only the Default theme currently exists
+- [x] Themability is almost currently entirely possible but only the Default theme currently exists
 
 **Native script interpreter** 
 - [x] Interprets both Lua and Squirrel scripts
 
 **Customizeable window titlebar buttons**
 - [x] Custom button images
-- [ ] Custom buttons can execute a script based on left and/or right mouse button clicks
+- [x] Custom buttons can execute a script based on left clicks...
+- [ ] and/or right clicks
 - [x] Default buttons for Opacity, Maximize, Minimize, and Close
 - [x] Left clicking the Opacity button reduces opacity by 15% initially then 25% until 0%
 - [x] Right clicking the Opacity button increases opacity by 25% until 100%
@@ -102,6 +113,7 @@ but is made into a widget via adding it to widgets.xml
 - [x] Clicking the time will pop open a window with a calander and a timer.
 - [x] The timer executes a specified bash command or script when the count down is finished
 - [x] Clicking on any day of the calander will allow the user to leave notes about that day for reminders.
+- [x] Optional user-defined time/date formatting
 
 **Xcalitask**
 - [x] A taskbar widget allowing the user to view, raise, and minimize open programs
